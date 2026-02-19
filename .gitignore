@@ -1,0 +1,29 @@
+# Environment — NEVER commit secrets
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+.DS_Store
+
+# Logs
+*.log
+/tmp/
+
+# IDE
+.cursor/
+.vscode/
+*.swp
